@@ -1,3 +1,15 @@
+.page {
+  max-width: 900px;
+  margin: auto;
+  background-color: #DCDCDC;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+  border-width: 300px;
+  border-top-width: 10px;
+  border-bottom-width: 10px;
+}
+
 .intro-to-page {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -8,6 +20,37 @@
   margin-top: 40px;
 }
 
+h1 {
+  background-color: gray;
+  color: white;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
+}
+
 footer {
   background-color: orange;
+  border-color: black;
+  border-style: solid;
+  padding: 10px;
+}
+
+#fire {
+  font-family: optima;
+}
+
+#coffee {
+  font-family: palatino;
+}
+
+#vineyard {
+  font-family: cursive;
+}
+
+#smores {
+  font-family: monospace;
+}
+
+#dog {
+  font-family: didot;
 }
